@@ -13,7 +13,10 @@ function App() {
     <>
     <BrowserRouter>
     
-    <nav className='w-full h-[5rem] text-xl text-blue-400 bg-black flex  items-center justify-between p-5'>
+    <nav className='w-full min-h-[5rem] bg-black text-blue-400 
+flex flex-col gap-4 p-5
+md:flex-row md:items-center md:justify-between'>
+
       <Link to="/">Home</Link>
       <Link to="/Color">Digital clock</Link>
       <Link to="/Generator">Password Generator</Link>
